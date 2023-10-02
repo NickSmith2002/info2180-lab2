@@ -17,17 +17,7 @@ header {
   grid-column-end: 3;
   padding-top: 10px;
 }
-/*.header{
-  color: #FFFFFF;
-  background-color: #63B3ED;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  grid-column: span 2;
-  padding: 50px;
-  
-}*/
+
 h1 {
   font-size: 36px;
   font-family: Georgia, 'Times New Roman', Times, serif;
