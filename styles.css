@@ -1,0 +1,145 @@
+.container {
+  display: grid;
+  grid-template-rows: 20% 75% 5%;
+  grid-template-columns: 75%, 25%;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: #63B3ED;
+  color: #FFFFFF;
+  align-items: center;
+  text-align: center;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  padding-top: 10px;
+}
+/*.header{
+  color: #FFFFFF;
+  background-color: #63B3ED;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  grid-column: span 2;
+  padding: 50px;
+  
+}*/
+h1 {
+  font-size: 36px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+  font-size: 32px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #48BB78;
+  grid-area: content;
+}
+
+h3 {
+  color: #48BB78;
+  text-align: left;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+article {
+  text-align: justify;
+  padding-left: 10px;
+}
+
+article h2 {
+  font-size: 32px;
+  color: #48BB78;
+}
+
+aside {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  text-align: left;
+  padding-right: 20%;
+  padding-left: 20%;
+}
+
+footer {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  background-color: #2C5282;
+  color: #FFFFFF;
+  padding-bottom: 10px;
+}
+
+figure {
+  float: right;
+  padding: 4px;
+}
+
+figure img {
+  height: 250px;
+  width: 250px;
+}
+
+
+
+header img {
+  border-radius: 99%;
+  height: auto;
+  width: 150px;
+}
+
+main {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  color: #2D3748;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sansserif;
+  font-size: 18px;
+}
+
+#about {
+  color: black;
+}
+
+#aboutsec {
+  background-color: #E2E8F0;
+}
+
+#aboutsec p,
+#aboutsec h3 {
+  padding: 4px;
+}
+
+section ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+section ul li {
+  color: #4299e1;
+  padding: 3px;
+}
+
+.author {
+  font-style: italic;
+  color: #718096;
+}
+
+.logo{
+  width: 32px;
+  height: 32px;
+  vertical-align: left;
+}
+
